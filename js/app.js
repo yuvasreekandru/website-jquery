@@ -1,8 +1,8 @@
 // --------- Preloader -------- //
-// $(window).on('load',function(){
-//     $('#preloader_status').fadeOut();
-//     $('#preloader').delay(350).fadeOut('slow');
-// });
+$(window).on('load',function(){
+    $('#preloader_status').fadeOut();
+    $('#preloader').delay(350).fadeOut('slow');
+});
 
 //-----------Team owl carousel ------//
 $(document).ready(function(){
